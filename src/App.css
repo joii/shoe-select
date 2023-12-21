@@ -7,6 +7,52 @@
   pointer-events: none;
 }
 
+.item-nav{
+  float: left;
+  margin: 20px;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.circle{
+  width:50px;
+  height: 50px;
+  border-radius: 50px;
+  padding-top: 15px;
+  color:#fff;
+  font-size: 13px;
+  
+}
+
+.bg-tan{
+  background-color: tan;
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.bg-brown{
+  background-color: brown;
+}
+
+.bg-gray{
+  background-color: gray;
+}
+
+.bg-green{
+  background-color: darkseagreen;
+}
+
+.nav-link ,
+.nav-link:hover{
+  color: black;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
